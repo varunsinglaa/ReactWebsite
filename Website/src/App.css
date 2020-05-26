@@ -1,0 +1,61 @@
+.container-fluid {
+  background-color: #fbfbfb;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-section {
+  height: 170px;
+  background-color: #ededed;
+  padding-top: 30px;
+}
+#main-heading {
+  margin-top: 0px;
+  text-align: center;
+  color: #636363;
+}
+
+.filter-section {
+  padding: 40px 20px 20px 50px;
+}
+.product-filter > select, .search-btn {
+  height: 30px;
+  background-color: #fbfbfb;
+}
+.product-filter > select {
+  padding: 0px 5px 0px 10px;
+}
+.search-btn {
+  border: 1px solid rgb(169, 169, 169);
+  margin-right: 30px;
+  padding: 0px 10px;
+}
+.input-field {
+  height: 30px;
+  padding-left: 5px;
+}
+
+.product-card-wrapper {
+  min-height: calc(100vh - 170px);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ul.pagination {
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pagination > .active > a {
+  color: lightgrey;
+}
+.pagination > li:hover {
+  color: grey;
+}
+.pagination > li > a {
+  margin: 5px;
+  cursor: pointer;
+}
