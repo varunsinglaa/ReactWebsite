@@ -6,7 +6,7 @@ export class Card extends Component {
     return (
       <a href="#" className="product-card">
         <div className="product-card-content">
-          <img src={this.props.image} alt="Display of fabric" className="product-img"/>
+          <img src={this.props.image} alt="Display" className="product-img"/>
           <div className="product-card-overlay"></div>
           <div id="view-details">Click for more details</div>
           <div id="add-now-btn">Add to cart</div>
