@@ -6,7 +6,7 @@ import Pagination from './page';
 
 const spoonflowerRootUrl = `http://search.spoonflower.com/searchv2/designs`
 
-class App extends Component {
+class App extends Component { // hello
   constructor() {
     super()
     this.state = {
